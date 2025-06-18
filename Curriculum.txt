@@ -1,0 +1,35 @@
+Python Fundamentals
+1. Variables, Data Types, Operators
+2. Comparism Operators & Control Flow (Loops, Conditionals)
+3. Functions and Modules (Some Useful Functions in Python)
+4. Python Data Structures (Lists, Tuples, Dictionaries, Sets)
+•	List Comprehensions
+5. File Handling (Reading/Writing Files)
+6. Working with Libraries
+Introduction to pip and conda
+Essential libraries: numpy, pandas, matplotlib, seaborn
+7. Data Manipulation with Pandas
+Introduction to Pandas
+•	Series & DataFrames
+•	Indexing and Selecting Data
+•	Merging & Joining DataFrames
+9. Data Visualization
+Matplotlib Basics
+Line Plots, Bar Charts, Histograms
+Customizing Plots (Labels, Legends, Titles)
+Seaborn for Advanced Visualizations
+10. SQL for Data Analytics
+Basics of SQL (SELECT, JOIN, GROUP BY)
+Using SQL with Python (sqlite3, SQLAlchemy)
+Scikit-Learn for Predictive Analytics
+Building & Deploying Simple Models
+
+Projects & Case Studies
+End-to-End Data Analysis Projects
+Sales Data Analysis
+Customer Segmentation
+COVID-19 Data Trends
+
+Building a Data Analytics Portfolio
+
+The End .
