@@ -7,12 +7,12 @@
 # def name_of_function(optional_variable):
 #   # Do something in the function
 
-# def greet():
-#     print("Good evening sir!")
+# def greet(name, gender):    
+#     print(f"Good evening {"Mr" if gender.lower() == "male" else "Mrs"} {name}!")
 
-# greet()
-# greet()
-# greet()
+# greet("Paul", "male")
+# greet("Chukwuma", "male")
+# greet("Sharon", "felmale")
 
 # def greet(name):
 #     print(f"Good morning {name}")
@@ -38,21 +38,20 @@ def multiply(num1, num2=4):
 # *args and **kwargs in python
 
 
-def add_numbers(numbers):
-    print(numbers)
+def add_numbers(*numbers):
     total = 0
 
-    for number in numbers:
-        total = total + number
+    for num in numbers:
+        print(num)
+        total = total + num
 
     return total
-
-
+ 
 # Useful functions for data science beginners
 
-def mean(*numbers):
-    """Calculate the mean of a list of numbers."""
-    return add_numbers(numbers) / len(numbers)
+# def mean(*numbers):
+#     """Calculate the mean of a list of numbers."""
+#     return add_numbers(numbers) / len(numbers)
 
 
 # print(mean(1, 2, 3, 4, 5, 6, 7))
@@ -77,6 +76,16 @@ def add_ranges(numbers):
     return total
 
 
-print(add_ranges(range(100)))
-print(add_ranges(range(50)))
-print(add_ranges(range(100)))
+# print(add_ranges(range(100)))
+# print(add_ranges(range(50)))
+# print(add_ranges(range(100)))
+
+
+initial_deposit = 100000
+
+
+def calculate_payment_with_month(time_in_months=24, daily_installment=3000):
+    return (daily_installment * 30 * time_in_months) + initial_deposit
+
+
+# print("Total payment will be", calculate_payment_with_month())

@@ -1,8 +1,9 @@
 
 # Comparism Operators
 # Comparism operators are used to compare two values and return a boolean result (True or False)
-# a = 10
-# b = 20
+from time import sleep
+a = 10
+b = 20
 # print(a == b)  # False
 # print(a != b)  # True
 # print(a > b)  # False
@@ -21,10 +22,10 @@
 # else:
 #     print("a is not less than b")
 
-# if a > b:
+# if a < b:
 #     print("a is greater than b")
-# else:
-#     print("a is not greater than b")
+
+# print("a is not greater than b")
 
 # if a == b:
 #     print("a is equal to b")
@@ -35,13 +36,26 @@
 
 # entry_age = 18
 
-# # if-elif-else statements
+# # # if-elif-else statements
 # if age_from_user < entry_age:
 #     print("Your age is below the entry age")
 # elif age_from_user == entry_age:
 #     print("You are just allowed to enter")
 # else:
 #     print("Your age is above the entry age")
+
+# user_input = input("Enter your food choice: ")
+
+# food = ['rice', 'beans', 'meatpie']
+
+# if user_input.lower() == food[0]:
+#     print("You chose rice")
+# elif user_input.lower() == food[1]:
+#     print("You chose beans")
+# elif user_input.lower() == food[2]:
+#     print("You chose meatpie")
+# else:
+#     print("You chose meatpie")
 
 
 # Logical Operators
@@ -102,7 +116,6 @@
 
 # # Loops in Python (for and while loops)
 
-from time import sleep
 numbers_0_to_5 = range(5)  # Generates numbers from 0 to 9
 
 # for variable in iterable:
@@ -168,3 +181,26 @@ numbers_0_to_5 = range(5)  # Generates numbers from 0 to 9
 #     print(f"You entered: {user_input}")
 
 # Note: Be careful with infinite loops, they can cause your program to run indefinitely.
+
+
+# for i in 'Hello World':
+#     if i == ' ':
+#         continue
+#     print(i)
+
+# x = 10
+
+# while x > 0:
+#     x = x - 2
+#     print(x)
+
+goods = [("Rice", 2000), ("Beans", 3000), ("Yam", 5000)] 
+
+total_costs = 0
+
+for item in goods:
+    total_costs = item[1] + total_costs
+    
+print("The total cost of goods is", total_costs)    
+
+    
